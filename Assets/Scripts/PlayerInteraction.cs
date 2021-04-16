@@ -8,7 +8,7 @@ public class PlayerInteraction : MonoBehaviour
 {
     public GameObject currentInterObj = null;
     public ObjectInteraction currentObjectInteractionScript;
-    public GameObject esclimationMark;
+    public GameObject exclamationMark;
     public GameObject enemy;
     public Text itemText;
     public Text objectiveText = null;
@@ -61,7 +61,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             currentInterObj = other.gameObject;
             currentObjectInteractionScript = currentInterObj.GetComponent<ObjectInteraction>();
-            esclimationMark.SetActive(true);
+            exclamationMark.SetActive(true);
         }
     }
     void OnTriggerExit2D(Collider2D other)
@@ -70,7 +70,7 @@ public class PlayerInteraction : MonoBehaviour
         if (other.CompareTag("InterObject") == true)
         {
             currentInterObj = null;
-            esclimationMark.SetActive(false);
+            exclamationMark.SetActive(false);
             if (currentObjectInteractionScript.isStartingNPC == true)
             {
                 objective = "Find and recover the lady's lost items.";
