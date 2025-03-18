@@ -28,13 +28,17 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: f6eb4a9258c9a104a958044a0a4c4bc3, type: 3}
     - {fileID: 2800000, guid: b9e6b50e55982c1439af7e326349b83c, type: 3}
     - {fileID: 2800000, guid: 066e666d16986324388be18592575bd6, type: 3}
     - {fileID: 2800000, guid: 9428a51655c27fe4ea6f451c5ab15104, type: 3}
+    totalSpriteSurfaceArea: 756736
     bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: -4626168618330065494, guid: f6eb4a9258c9a104a958044a0a4c4bc3, type: 3}
@@ -710,5 +714,6 @@ SpriteAtlas:
   - desert_1_0_8_2
   - desert_1_0_8_9
   - desert_1_0_8_8
+  m_RenderDataMap: {}
   m_Tag: SpriteAtlas
   m_IsVariant: 0
